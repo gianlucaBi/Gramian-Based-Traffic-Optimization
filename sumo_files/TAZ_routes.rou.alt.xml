@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Oct 29 15:15:20 2018 by SUMO duarouter Version 0.30.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo_files/map.net.xml"/>
+        <trip-files value="sumo_files/trips.odtrips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumo_files/TAZ_routes.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="63" depart="0.79" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.03" probability="1.00000000" edges="-172996350#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3193" depart="1.88" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.50" probability="1.00000000" edges="237022761#10 -237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="283" depart="2.83" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="33.83" probability="1.00000000" edges="382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3028" depart="4.33" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="54.46" probability="1.00000000" edges="172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="519" depart="4.77" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="45.30" probability="1.00000000" edges="-172996350#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3886" depart="4.80" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="38.61" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4530" depart="6.04" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="47.49" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3064" depart="7.36" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.57" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4140" depart="8.70" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="51.40" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2255" depart="10.87" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="81.44" probability="1.00000000" edges="-398814238 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3020" depart="11.00" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="50.80" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="245" depart="11.12" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="72.31" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2653" depart="11.33" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="62.24" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2378" depart="11.57" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="63.84" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4240" depart="11.71" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.27" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1581" depart="14.07" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.35" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2551" depart="15.90" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="67.31" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 -234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1351" depart="16.08" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="48.81" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 -234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3876" depart="16.08" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="83.25" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="88" depart="16.72" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.30" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4616" depart="18.30" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="78.70" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="9" depart="18.39" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="78.94" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3463" depart="18.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="49.51" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4545" depart="18.94" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="51.90" probability="1.00000000" edges="399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="749" depart="18.97" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.28" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="412" depart="19.61" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="80.64" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4912" depart="19.62" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="79.30" probability="1.00000000" edges="237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2525" depart="19.73" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="42.97" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4638" depart="21.21" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.07" probability="1.00000000" edges="206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 161688767#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1599" depart="21.76" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="57.79" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4652" depart="22.42" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="30.23" probability="1.00000000" edges="398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3045" depart="22.69" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="32.68" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1397" depart="22.82" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.60" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="391" depart="23.05" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="116.36" probability="1.00000000" edges="136751135#0 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4289" depart="23.87" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.49" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1144" depart="23.89" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.57" probability="1.00000000" edges="-172996350#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3801" depart="25.71" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="42.23" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3636" depart="25.74" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.10" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1775" depart="25.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="35.91" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3436" depart="27.26" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.21" probability="1.00000000" edges="399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0 234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3557" depart="29.89" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="78.95" probability="1.00000000" edges="-579163503#1 579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1387" depart="32.14" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="85.91" probability="1.00000000" edges="510562261#0 398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1752" depart="35.00" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.97" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 -398733935 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4854" depart="35.81" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.77" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3674" depart="35.90" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="104.46" probability="1.00000000" edges="510562261#0 398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3011" depart="36.22" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="51.28" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1289" depart="36.35" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="76.31" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="198" depart="36.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="47.98" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 -398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2369" depart="37.22" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="76.78" probability="1.00000000" edges="136751135#0 -136751135#4 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="526" depart="37.70" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="74.30" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4343" depart="38.76" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="49.85" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="142" depart="39.03" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.88" probability="1.00000000" edges="172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4428" depart="42.17" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="62.30" probability="1.00000000" edges="-237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3372" depart="42.24" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="63.12" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3626" depart="42.31" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="89.38" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3578" depart="42.40" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="70.30" probability="1.00000000" edges="206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3684" depart="42.53" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.28" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4732" depart="43.31" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="88.99" probability="1.00000000" edges="510562261#0 398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 161688767#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1416" depart="44.99" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="76.36" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4704" depart="46.74" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.80" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3768" depart="46.80" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.77" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2858" depart="46.85" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="41.72" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="571" depart="46.90" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="33.83" probability="1.00000000" edges="382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3658" depart="47.47" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.79" probability="1.00000000" edges="237022761#10 -237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="772" depart="47.95" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="63.98" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1244" depart="49.05" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="44.07" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2387" depart="49.06" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="46.83" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4900" depart="49.06" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="38.13" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2343" depart="49.22" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="32.55" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4435" depart="49.85" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.17" probability="1.00000000" edges="-172996350#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2862" depart="49.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="32.68" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4958" depart="50.43" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="78.30" probability="1.00000000" edges="237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4035" depart="50.70" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="100.91" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1446" depart="51.33" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="41.67" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3152" depart="52.62" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="48.84" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3570" depart="53.26" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="100.34" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3452" depart="53.56" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="78.69" probability="1.00000000" edges="-579163503#1 579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 -234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1677" depart="53.94" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="99.17" probability="1.00000000" edges="237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="543" depart="54.47" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="74.91" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1950" depart="55.12" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="80.14" probability="1.00000000" edges="136751135#0 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1327" depart="55.39" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="76.16" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 161688767#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4942" depart="55.54" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="55.72" probability="1.00000000" edges="-172996350#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="5" depart="55.65" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="82.79" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2792" depart="55.81" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="77.24" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3394" depart="56.04" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.78" probability="1.00000000" edges="-398814238 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0 234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1872" depart="56.27" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.60" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2733" depart="58.71" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="66.37" probability="1.00000000" edges="-161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3348" depart="58.83" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.29" probability="1.00000000" edges="-399238814#1 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3675" depart="59.01" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.74" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1051" depart="59.07" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="48.81" probability="1.00000000" edges="382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1430" depart="59.85" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="40.61" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3598" depart="60.66" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.17" probability="1.00000000" edges="398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1154" depart="63.18" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="83.25" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2184" depart="64.13" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.30" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 161688767#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1871" depart="65.23" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="50.95" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1557" depart="66.73" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.17" probability="1.00000000" edges="-172996350#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2409" depart="66.85" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="118.62" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3953" depart="67.39" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="54.77" probability="1.00000000" edges="399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4002" depart="70.47" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="110.81" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1829" depart="70.69" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="41.67" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="597" depart="70.72" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="36.99" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3677" depart="71.75" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.80" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1076" depart="72.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.83" probability="1.00000000" edges="206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4237" depart="73.45" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.31" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="587" depart="73.98" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.06" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4071" depart="74.05" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.61" probability="1.00000000" edges="382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3030" depart="74.14" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="84.89" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4424" depart="75.03" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="77.99" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="711" depart="76.05" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="84.00" probability="1.00000000" edges="-161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="551" depart="76.76" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="36.66" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2370" depart="77.29" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="66.63" probability="1.00000000" edges="399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4130" depart="77.78" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.19" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="418" depart="77.89" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="39.85" probability="1.00000000" edges="398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2624" depart="80.18" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="57.85" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 161688767#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4510" depart="80.40" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="66.62" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="111" depart="81.62" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="55.96" probability="1.00000000" edges="-399238814#1 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3417" depart="82.31" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="109.01" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3606" depart="83.03" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="93.05" probability="1.00000000" edges="510562261#0 398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 -398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3157" depart="83.37" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="56.28" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4695" depart="84.33" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="67.44" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4925" depart="84.36" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="85.76" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2937" depart="85.77" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="48.84" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="829" depart="88.88" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.47" probability="1.00000000" edges="-47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1006" depart="89.14" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="83.66" probability="1.00000000" edges="136751135#0 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4700" depart="91.27" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.99" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4483" depart="91.43" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="57.68" probability="1.00000000" edges="-402114963 -136751135#4 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="907" depart="92.51" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.57" probability="1.00000000" edges="-161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3317" depart="92.85" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="124.01" probability="1.00000000" edges="510562261#0 398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1367" depart="94.16" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="34.71" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2685" depart="94.22" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="49.30" probability="1.00000000" edges="398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3925" depart="95.45" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="102.84" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3729" depart="95.74" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="50.12" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="915" depart="95.90" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="68.16" probability="1.00000000" edges="399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2986" depart="97.49" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="48.35" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3719" depart="98.40" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="67.51" probability="1.00000000" edges="-402114963 -136751135#4 -398733941#1 -398733944 -398733936 -398733935 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1384" depart="100.27" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="35.26" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3441" depart="100.87" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="51.40" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4490" depart="100.89" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.10" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1695" depart="101.87" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="56.39" probability="1.00000000" edges="382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0 234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1910" depart="103.47" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.60" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0 234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1633" depart="103.83" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="74.92" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4444" depart="105.13" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="77.95" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="508" depart="105.18" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="49.70" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1760" depart="105.24" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="50.10" probability="1.00000000" edges="172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="399" depart="106.94" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="66.72" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="367" depart="107.93" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="49.27" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 161688767#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="695" depart="108.25" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="38.61" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3213" depart="108.26" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="81.64" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="873" depart="108.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.21" probability="1.00000000" edges="399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0 234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2844" depart="109.13" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="49.51" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="884" depart="110.09" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.30" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 -398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4310" depart="111.10" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.81" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 -234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2787" depart="112.78" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="55.96" probability="1.00000000" edges="-399238814#1 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1652" depart="113.22" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.82" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="370" depart="114.89" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.25" probability="1.00000000" edges="382459572 186076540 398812541 398812542 398735940#0 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4205" depart="115.00" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.57" probability="1.00000000" edges="-237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="129" depart="116.59" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.89" probability="1.00000000" edges="-398814238 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3271" depart="118.42" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="86.61" probability="1.00000000" edges="136751135#0 -136751135#4 -398733941#1 -398733944 -398733936 -398733935 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="960" depart="120.35" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="75.50" probability="1.00000000" edges="-579163503#1 579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1951" depart="121.15" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="54.50" probability="1.00000000" edges="237022761#10 -237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1835" depart="121.91" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="74.43" probability="1.00000000" edges="-399238814#1 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 398733934"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4039" depart="123.28" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="45.02" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4309" depart="123.85" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="33.01" probability="1.00000000" edges="398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4096" depart="124.14" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="53.73" probability="1.00000000" edges="-237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4849" depart="126.06" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.89" probability="1.00000000" edges="-398814238 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="944" depart="127.28" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="38.13" probability="1.00000000" edges="398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3981" depart="127.66" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="67.41" probability="1.00000000" edges="-161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3621" depart="128.00" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="85.40" probability="1.00000000" edges="136751135#0 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 -398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1580" depart="128.15" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="55.45" probability="1.00000000" edges="172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1514" depart="128.61" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="42.23" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3948" depart="128.91" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="63.75" probability="1.00000000" edges="172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4767" depart="131.67" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="80.22" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 -398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3056" depart="132.47" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.49" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4484" depart="132.53" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="83.86" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3698" depart="132.83" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="70.64" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4250" depart="133.90" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="73.05" probability="1.00000000" edges="-172996350#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3054" depart="134.90" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="103.74" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1254" depart="135.94" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="70.61" probability="1.00000000" edges="-161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 -234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1650" depart="136.02" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="45.02" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2784" depart="136.05" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.38" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2485" depart="136.78" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="53.33" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 -398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2489" depart="137.39" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="35.49" probability="1.00000000" edges="398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="920" depart="138.74" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="57.79" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3763" depart="140.44" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="56.79" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 -398733935 -382439720 -381482564 398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2632" depart="141.46" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.38" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3765" depart="143.80" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="94.38" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3238" depart="144.31" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="88.99" probability="1.00000000" edges="510562261#0 398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 161688767#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="648" depart="145.86" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.74" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3533" depart="146.07" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.19" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1576" depart="146.43" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="81.64" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4052" depart="148.44" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.28" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="318" depart="150.40" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="77.69" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2728" depart="150.88" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="67.93" probability="1.00000000" edges="-172996350#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2486" depart="151.13" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.81" probability="1.00000000" edges="-402114963 -136751135#4 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4716" depart="151.71" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.35" probability="1.00000000" edges="172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3745" depart="153.00" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="50.96" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="546" depart="153.28" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="72.63" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="565" depart="153.62" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="76.31" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1845" depart="154.57" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.48" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1549" depart="154.88" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="38.97" probability="1.00000000" edges="398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4211" depart="157.79" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="48.46" probability="1.00000000" edges="206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1415" depart="158.23" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.81" probability="1.00000000" edges="-402114963 -136751135#4 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4488" depart="159.23" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="74.57" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="650" depart="159.54" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="83.36" probability="1.00000000" edges="-161689967#0 405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4635" depart="160.09" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.12" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3315" depart="162.24" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="57.83" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2055" depart="162.42" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="83.81" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="19" depart="163.02" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="51.64" probability="1.00000000" edges="-186076540 -382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2920" depart="163.13" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.62" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4157" depart="163.65" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.48" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2818" depart="164.21" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="68.77" probability="1.00000000" edges="206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3875" depart="166.63" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="43.72" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4788" depart="167.07" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="46.94" probability="1.00000000" edges="399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2429" depart="168.45" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="84.56" probability="1.00000000" edges="136751135#0 -136751135#4 -398733941#1 -398733944 -398733936 -398733935 -382439720 -381482564 381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3686" depart="168.50" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="25.88" probability="1.00000000" edges="398812541 398812542 398735940#0 398735938#0 398735936 398735939#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1462" depart="168.69" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="62.28" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2392" depart="168.94" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.04" probability="1.00000000" edges="-402114963 398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4454" depart="169.20" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.57" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -398735933"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1683" depart="169.37" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="54.35" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 -234659538#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="92" depart="169.75" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="29.20" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3268" depart="169.93" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.27" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3343" depart="170.35" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="50.45" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2475" depart="172.29" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="68.39" probability="1.00000000" edges="405164831#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 161688767#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2912" depart="174.20" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="76.36" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2560" depart="174.70" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="70.37" probability="1.00000000" edges="-237022761#12 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720 -382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4215" depart="177.54" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="80.62" probability="1.00000000" edges="-579163503#1 579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3478" depart="178.53" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="56.74" probability="1.00000000" edges="399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1053" depart="179.28" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="57.52" probability="1.00000000" edges="398814284#0 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="137" depart="179.52" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="81.84" probability="1.00000000" edges="-382459572 382459572 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 398740643 382439721#0 -382439721#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2407" depart="180.41" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="63.33" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 -398733935 -382439720 -381482564 -398733939 -398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4198" depart="180.44" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="58.30" probability="1.00000000" edges="-136751135#4 -398733941#1 -398733944 -398733936 161688767#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1642" depart="181.97" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="55.21" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3439" depart="182.09" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="32.68" probability="1.00000000" edges="186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="457" depart="182.42" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.30" probability="1.00000000" edges="237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3209" depart="183.15" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="93.95" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 -398735939#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1909" depart="183.21" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="70.87" probability="1.00000000" edges="-161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4038" depart="183.66" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="71.79" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4718" depart="183.84" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="61.04" probability="1.00000000" edges="-399238814#1 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 -234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1023" depart="185.27" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="52.50" probability="1.00000000" edges="398812533 398814238 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3536" depart="185.34" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="66.06" probability="1.00000000" edges="579163503#0 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 398735929 -398735929"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4531" depart="185.87" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.12" probability="1.00000000" edges="206354180#0 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="73" depart="186.01" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="41.55" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 -521842795"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1816" depart="186.07" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="64.99" probability="1.00000000" edges="206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="378" depart="187.53" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="68.16" probability="1.00000000" edges="399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3133" depart="188.75" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="75.50" probability="1.00000000" edges="-399238813#1 399238813#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 -398733942 398733942"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4457" depart="189.39" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.01" probability="1.00000000" edges="-172996350#1 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 161688767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4984" depart="190.01" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="81.64" probability="1.00000000" edges="47805886#3 -47805886#7 161688464#3 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 -381482564"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4383" depart="190.39" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="56.28" probability="1.00000000" edges="-398814235 398814235 186076540 398812541 398812542 398735940#0 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3262" depart="191.17" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="100.96" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 -398735937#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3012" depart="192.98" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="59.09" probability="1.00000000" edges="172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3080" depart="193.97" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="78.52" probability="1.00000000" edges="161689967#1 -161689967#2 206354180#1 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -161822265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3100" depart="197.45" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="29.20" probability="1.00000000" edges="-398812541 398812541 398812542 398735940#0 398735938#0 398735936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3169" depart="199.14" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="60.57" probability="1.00000000" edges="-399238814#1 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4588" depart="199.97" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="112.38" probability="1.00000000" edges="-237022761#9 237022761#0 399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 161688464#17 -398733941#1 -398733944 -398733936 -398733935"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="503" depart="200.43" departLane="free" departSpeed="max" fromTaz="source" toTaz="destination">
+        <routeDistribution last="0">
+            <route cost="65.54" probability="1.00000000" edges="399238814#0 172996350#0 172996350#1 398735949#0 382460880#0 161688464#8 398735938#0 398735936 398735939#0 398735937#0 398735933 234659538#1 161822265 -398733939 398733939 381482564 382439720"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
