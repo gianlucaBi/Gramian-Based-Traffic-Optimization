@@ -1,0 +1,5 @@
+<additional>
+	<edgeData id="1" freq="200" file="outputs/simOutput_200.xml"/>
+	<edgeData id="1" freq="500" file="outputs/simOutput_500.xml"/>
+	<edgeData id="1" freq="1000" file="outputs/simOutput_1000.xml"/>
+</additional>
