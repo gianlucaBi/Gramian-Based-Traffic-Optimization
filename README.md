@@ -19,7 +19,9 @@ The file "main_bash.sh" is a bash executable file that will guide you through th
 necessary files and runs the optimization and simulation.
 
 
-# References
+# Documentation and References
+Video tutorial: https://www.youtube.com/watch?v=9tNQBOkdd00&feature=youtu.be
+
 [1] G. Bianchin, F. Pasqualetti, A network optimization framework for the analysis and control of traffic dynamics and intersection signaling, in: IEEE Conf. on Decision and Control, Miami, FL, 2018, [to appear].
 
 [2] G. Bianchin, F. Pasqualetti, Gramian-based optimization for the analysis and control of traffic networks, IEEE Transactions on Intelligent Transportation Systems [Submitted].
