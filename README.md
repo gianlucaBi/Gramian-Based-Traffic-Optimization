@@ -11,7 +11,7 @@ Gramian-Based Optimization and simulation of the traffic network in a Python-Sum
 # Required Files
 1) OSM file containing the geographic information for the traffic network of interest.
    (See, e.g.: https://www.openstreetmap.org/)
-2) A polygon file describing TAZs and origins/destinations of traffic
+2) A polygon file describing TAZs and origins/destinations of traffic.
 3) Origin inflows through an OD matrix.
 
 # Execution
