@@ -1,4 +1,4 @@
-# Gramian-Based Traffic Optimization
+# A Sumo Interface for Gramian-Based Traffic Optimization
 
 This project contains a set of scripts that allow to import a certain OSM map and to perform 
 Gramian-Based Optimization and simulation of the traffic network in a Python-Sumo framework.
